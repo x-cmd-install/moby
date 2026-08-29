@@ -1,0 +1,66 @@
+about:
+  description: The Moby Project - a collaborative project for the container ecosystem to assemble container-based systems
+  license: Apache-2.0
+  homepage: https://mobyproject.org/
+  head: e0ac29c
+  archived: false
+  latestVersion: docker-v29.8.0-rc.1
+  collectedAt: 2026-08-29T06:59:09Z
+timeline:
+  created: 2013-01-18
+  lastCommit: 2026-08-28
+  lastRelease: 2026-08-28
+popularity:
+  star: 72011
+  watcher: 2861
+  fork: 19207
+  release: 309
+  contributor: 2337
+  pullRequest: 5939
+  issue: 23608
+language:
+  Go: 11338019
+  Shell: 158463
+  Dockerfile: 48613
+  PowerShell: 31804
+  Lua: 24781
+  Go Template: 19103
+  Makefile: 11394
+  Python: 7179
+  C: 5678
+  HCL: 4023
+  Assembly: 81
+totalLine: 11649138
+recent:
+  last30d:
+    since: 2026-07-30
+    release: 8
+    mergedPR: 118
+    openPR: 59
+    closedIssue: 13
+    openIssue: 41
+    commit: 306
+  last90d:
+    since: 2026-05-31
+    release: 19
+    mergedPR: 403
+    openPR: 133
+    closedIssue: 37
+    openIssue: 87
+    commit: 998
+  last180d:
+    since: 2026-03-02
+    release: 36
+    mergedPR: 728
+    openPR: 183
+    closedIssue: 112
+    openIssue: 118
+    commit: 1707
+  last360d:
+    since: 2025-09-03
+    release: 70
+    mergedPR: 1517
+    openPR: 245
+    closedIssue: 256
+    openIssue: 211
+    commit: 3574
