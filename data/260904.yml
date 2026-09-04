@@ -7,13 +7,13 @@ about:
   head: 2280567
   archived: false
   latestVersion: docker-v29.8.0
-  collectedAt: 2026-09-04T19:28:28Z
+  collectedAt: 2026-09-04T21:05:31Z
 timeline:
   created: 2013-01-18
   lastCommit: 2026-09-04
   lastRelease: 2026-09-03
 popularity:
-  star: 72039
+  star: 72038
   watcher: 2865
   fork: 19228
   release: 312
@@ -90,6 +90,129 @@ total:
   openIssue: 3275
   commit: 57883
 ---
+path: /home/runner/.x-repo/github.com/moby/moby
+collectedAt: 2026-09-04T21:05:51Z
+loc:
+  Go:
+    code: 1961682
+    comments: 371573
+    blanks: 278126
+    files: 10615
+  Yaml:
+    code: 372309
+    comments: 1338
+    blanks: 7793
+    files: 65
+  AssemblyGAS:
+    code: 31119
+    comments: 1776
+    blanks: 3601
+    files: 89
+  Json:
+    code: 8677
+    comments: 0
+    blanks: 2
+    files: 50
+  Protobuf:
+    code: 8269
+    comments: 4349
+    blanks: 2599
+    files: 109
+  Sh:
+    code: 4921
+    comments: 696
+    blanks: 672
+    files: 48
+  Makefile:
+    code: 2198
+    comments: 473
+    blanks: 641
+    files: 50
+  Bash:
+    code: 1307
+    comments: 271
+    blanks: 235
+    files: 34
+  CHeader:
+    code: 1030
+    comments: 125
+    blanks: 42
+    files: 5
+  Dockerfile:
+    code: 971
+    comments: 120
+    blanks: 168
+    files: 22
+  Hcl:
+    code: 629
+    comments: 37
+    blanks: 107
+    files: 8
+  Lua:
+    code: 530
+    comments: 60
+    blanks: 56
+    files: 2
+  C:
+    code: 478
+    comments: 70
+    blanks: 83
+    files: 15
+  PowerShell:
+    code: 472
+    comments: 101
+    blanks: 19
+    files: 1
+  Python:
+    code: 256
+    comments: 20
+    blanks: 39
+    files: 2
+  Toml:
+    code: 181
+    comments: 22
+    blanks: 55
+    files: 11
+  ABNF:
+    code: 129
+    comments: 37
+    blanks: 80
+    files: 1
+  Bitbake:
+    code: 57
+    comments: 8
+    blanks: 0
+    files: 4
+  Nix:
+    code: 35
+    comments: 1
+    blanks: 4
+    files: 2
+  Svg:
+    code: 4
+    comments: 0
+    blanks: 0
+    files: 4
+  ForgeConfig:
+    code: 1
+    comments: 0
+    blanks: 0
+    files: 1
+  Markdown:
+    code: 0
+    comments: 78222
+    blanks: 31917
+    files: 534
+  Text:
+    code: 0
+    comments: 21564
+    blanks: 594
+    files: 43
+total:
+  code: 2399862
+  comments: 481498
+  blanks: 327506
+  files: 11715
 ---
 date: "2026-08-24"
 repo:
