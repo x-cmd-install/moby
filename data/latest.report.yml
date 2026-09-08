@@ -5,19 +5,19 @@ about:
   head: 275015b
   archived: false
   latestVersion: "docker-v29.8.0"
-  collectedAt: 2026-09-08T01:44:15Z
+  collectedAt: 2026-09-08T04:34:22Z
 timeline:
   created: 2013-01-18
   lastCommit: 2026-09-07
   lastRelease: 2026-09-03
 popularity:
-  star: 72089
+  star: 72090
   watcher: 2864
   fork: 19238
   release: 312
   contributor: 2328
   pullRequest: 29119
-  issue: 23623
+  issue: 23624
 language:
   Go: 11471867
   Shell: 158463
@@ -38,7 +38,7 @@ recent:
     mergedPR: 140
     openPR: 51
     closedIssue: 11
-    openIssue: 37
+    openIssue: 38
     commit: 326
   last60d:
     since: 2026-07-10
@@ -46,7 +46,7 @@ recent:
     mergedPR: 295
     openPR: 95
     closedIssue: 28
-    openIssue: 71
+    openIssue: 72
     commit: 681
   last90d:
     since: 2026-06-10
@@ -54,7 +54,7 @@ recent:
     mergedPR: 425
     openPR: 124
     closedIssue: 37
-    openIssue: 92
+    openIssue: 93
     commit: 977
   last180d:
     since: 2026-03-12
@@ -62,7 +62,7 @@ recent:
     mergedPR: 774
     openPR: 175
     closedIssue: 113
-    openIssue: 124
+    openIssue: 125
     commit: 1771
   last360d:
     since: 2025-09-13
@@ -70,7 +70,7 @@ recent:
     mergedPR: 1542
     openPR: 233
     closedIssue: 254
-    openIssue: 200
+    openIssue: 201
     commit: 3558
   last720d:
     since: 2024-09-18
@@ -78,18 +78,18 @@ recent:
     mergedPR: 3057
     openPR: 328
     closedIssue: 539
-    openIssue: 440
+    openIssue: 441
     commit: 7806
 total:
   release: 312
   mergedPR: 23178
   openPR: 603
   closedIssue: 20343
-  openIssue: 3280
+  openIssue: 3281
   commit: 57891
 ---
 path: /home/runner/.x-repo/github.com/moby/moby
-collectedAt: 2026-09-08T01:44:54Z
+collectedAt: 2026-09-08T04:35:02Z
 loc:
   Go:
     code: 1950508
