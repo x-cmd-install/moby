@@ -1,3 +1,14 @@
+- repo: chimera
+  subrepo: user
+  srcname: moby
+  binname: moby-dinit
+  visiblename: moby-dinit
+  version: 29.7.2
+  origversion: 29.7.2-r1
+  status: outdated
+  summary: Container management daemon (service files)
+  licenses:
+    - Apache-2.0
 - repo: aerynos
   srcname: moby
   visiblename: moby
@@ -16,17 +27,6 @@
   origversion: 29.7.2-r1
   status: outdated
   summary: Container management daemon
-  licenses:
-    - Apache-2.0
-- repo: chimera
-  subrepo: user
-  srcname: moby
-  binname: moby-dinit
-  visiblename: moby-dinit
-  version: 29.7.2
-  origversion: 29.7.2-r1
-  status: outdated
-  summary: Container management daemon (service files)
   licenses:
     - Apache-2.0
 - repo: chimera
@@ -127,6 +127,15 @@
   status: outdated
   maintainers:
     - prathamin@proton.me
+- repo: gnuguix
+  srcname: docker
+  binname: docker
+  visiblename: docker
+  version: 20.10.27
+  origversion: null
+  status: outdated
+  summary: Container component library and daemon
+  vulnerable: true
 - repo: liguros_develop
   srcname: app-containers/docker
   visiblename: app-containers/docker
@@ -227,7 +236,7 @@
   status: newest
   summary: An open platform for distributed applications for developers and sysadmins
   maintainers:
-    - fallback-mnt-vylen@repology
+    - wonkru-dev@proton.me
 - repo: wikidata
   srcname: Q96276695
   visiblename: Moby
@@ -410,15 +419,6 @@
   categories:
     - misc
   vulnerable: true
-- repo: gnuguix
-  srcname: docker
-  binname: docker
-  visiblename: docker
-  version: 20.10.27
-  origversion: null
-  status: outdated
-  summary: Container component library and daemon
-  vulnerable: true
 - repo: debian_12
   subrepo: bookworm/main
   srcname: docker.io
@@ -506,6 +506,24 @@
     - tpot@hpe.com
   categories:
     - misc
+  vulnerable: true
+- repo: openeuler_24_03_lts_sp1
+  srcname: moby
+  binnames:
+    - moby
+    - moby-engine
+    - moby-client
+    - libnetwork
+    - moby-debuginfo
+  visiblename: moby
+  version: 25.0.3
+  origversion: 25.0.3-22.oe2403sp1
+  status: outdated
+  summary: The open-source application container engine
+  licenses:
+    - Apache-2.0
+  categories:
+    - Unspecified
   vulnerable: true
 - repo: debian_14
   subrepo: forky/main
@@ -923,27 +941,6 @@
   categories:
     - app-containers
   vulnerable: true
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: docker.io
-  binnames:
-    - docker.io
-    - golang-github-docker-docker-dev
-    - docker-doc
-  visiblename: docker.io
-  version: 20.10.24
-  origversion: 20.10.24+dfsg1-1+deb12u1
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - arnaudr@kali.org
-    - onlyjob@debian.org
-    - paultag@debian.org
-    - tianon@debian.org
-    - tpot@hpe.com
-  categories:
-    - misc
-  vulnerable: true
 - repo: gentoo
   srcname: app-containers/docker
   visiblename: app-containers/docker
@@ -1152,24 +1149,6 @@
   summary: The open-source application container engine
   licenses:
     - ASL 2.0
-  categories:
-    - Unspecified
-  vulnerable: true
-- repo: openeuler_24_03_lts_sp1
-  srcname: moby
-  binnames:
-    - moby
-    - moby-engine
-    - moby-client
-    - libnetwork
-    - moby-debuginfo
-  visiblename: moby
-  version: 25.0.3
-  origversion: 25.0.3-22.oe2403sp1
-  status: outdated
-  summary: The open-source application container engine
-  licenses:
-    - Apache-2.0
   categories:
     - Unspecified
   vulnerable: true
@@ -1421,6 +1400,27 @@
     - tpot@hpe.com
   categories:
     - admin
+  vulnerable: true
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: docker.io
+  binnames:
+    - docker.io
+    - golang-github-docker-docker-dev
+    - docker-doc
+  visiblename: docker.io
+  version: 20.10.24
+  origversion: 20.10.24+dfsg1-1+deb12u1
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - arnaudr@kali.org
+    - onlyjob@debian.org
+    - paultag@debian.org
+    - tianon@debian.org
+    - tpot@hpe.com
+  categories:
+    - misc
   vulnerable: true
 - repo: raspbian_stable
   subrepo: main

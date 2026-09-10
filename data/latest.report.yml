@@ -7,7 +7,7 @@ about:
   latestVersion: "docker-v29.8.0"
   latestRelease: "docker-v29.8.0"
   latestPrerelease: "docker-v29.8.0-rc.1"
-  collectedAt: 2026-09-10T20:15:15Z
+  collectedAt: 2026-09-10T23:33:01Z
 timeline:
   created: 2013-01-18
   lastCommit: 2026-09-10
@@ -15,7 +15,7 @@ timeline:
   lastRelease: 2026-09-03
   lastPrerelease: 2026-08-28
 popularity:
-  star: 72077
+  star: 72078
   watcher: 2859
   fork: 19220
   release: 312
@@ -93,7 +93,7 @@ total:
   commit: 57915
 ---
 path: /home/runner/.x-repo/github.com/moby/moby
-collectedAt: 2026-09-10T20:15:52Z
+collectedAt: 2026-09-10T23:33:37Z
 loc:
   Go:
     code: 1951352
