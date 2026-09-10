@@ -22,23 +22,22 @@ x install moby
 
 - **Latest**: `docker-v29.8.0` (2026-09-03)
 - **Last commit**: 2026-09-10
-- **Published**: 2026-09-03T22:31:49Z
 
 ## Popularity
 
-- **Stars**: 72,072 · **Forks**: 19,221 · **Open issues**: 23,624 · **Contributors**: 2,328
+- **Stars**: 72,077 · **Forks**: 19,220 · **Open issues**: 23,626 · **Contributors**: 2,327
 
 ## Totals (cumulative)
 
-- **Releases**: 312 · **Merged PRs**: 23186 · **Open PRs**: 604 · **Closed issues**: 20346 · **Open issues**: 3278 · **Commits**: 57913
+- **Releases**: 312 · **Merged PRs**: 23186 · **Open PRs**: 608 · **Closed issues**: 20346 · **Open issues**: 3280 · **Commits**: 57913
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-11 | 8 | 144 | 47 | 14 | 31 | 348 |
-| 90d | 2026-06-12 | 21 | 413 | 122 | 39 | 89 | 999 |
-| 360d | 2025-09-15 | 71 | 1543 | 235 | 256 | 198 | 3580 |
+| 30d | 2026-08-11 | 8 | 144 | 51 | 14 | 33 | 348 |
+| 90d | 2026-06-12 | 21 | 413 | 126 | 39 | 91 | 999 |
+| 360d | 2025-09-15 | 71 | 1543 | 239 | 256 | 200 | 3580 |
 
 ## Code size
 
@@ -67,8 +66,8 @@ Lowest-scoring checks:
 Install metadata for moby lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `moby` is missing, out of date, or installs incorrectly, please open an issue or PR there:
 
 - **Open an issue**: <https://github.com/x-cmd/install/issues/new>
-- **Edit the package entry**: <https://github.com/x-cmd/edit/main/moby.yml> (or whichever path the index uses)
+- **Edit the package entry**: <https://github.com/x-cmd/install/edit/main/moby.yml> (or whichever path the index uses)
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T04:33:12Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T16:17:43Z._
