@@ -47,7 +47,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 72,077 · **Forks**: 19,220 · **Open issues**: 23,626 · **Contributors**: 2,327
+- **Stars**: 72,078 · **Forks**: 19,220 · **Open issues**: 23,626 · **Contributors**: 2,327
 
 ## Totals (cumulative)
 
@@ -86,4 +86,4 @@ Install metadata for moby lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T20:16:01Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T23:33:44Z._
