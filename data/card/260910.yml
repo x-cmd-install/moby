@@ -2,12 +2,12 @@ about:
   description: "The Moby Project - a collaborative project for the container ecosystem to assemble container-based systems"
   license: Apache-2.0
   homepage: https://mobyproject.org/
-  head: c306521
+  head: d0ecdbf
   archived: false
   latestVersion: "docker-v29.8.0"
   latestRelease: "docker-v29.8.0"
   latestPrerelease: "docker-v29.8.0-rc.1"
-  collectedAt: 2026-09-10T16:16:24Z
+  collectedAt: 2026-09-10T20:15:15Z
 timeline:
   created: 2013-01-18
   lastCommit: 2026-09-10
@@ -20,10 +20,10 @@ popularity:
   fork: 19220
   release: 312
   contributor: 2327
-  pullRequest: 29135
+  pullRequest: 29136
   issue: 23626
 language:
-  Go: 11476286
+  Go: 11476277
   Shell: 158463
   Dockerfile: 48619
   PowerShell: 31804
@@ -34,72 +34,72 @@ language:
   C: 5678
   HCL: 4023
   Assembly: 81
-totalBytes: 11787411
+totalBytes: 11787402
 recent:
   last30d:
     since: 2026-08-11
     release: 8
-    mergedPR: 144
+    mergedPR: 145
     openPR: 51
     closedIssue: 14
     openIssue: 33
-    commit: 348
+    commit: 350
   last60d:
     since: 2026-07-12
     release: 14
-    mergedPR: 301
+    mergedPR: 302
     openPR: 100
     closedIssue: 31
     openIssue: 70
-    commit: 703
+    commit: 705
   last90d:
     since: 2026-06-12
     release: 21
-    mergedPR: 413
+    mergedPR: 414
     openPR: 126
     closedIssue: 39
     openIssue: 91
-    commit: 999
+    commit: 1001
   last180d:
     since: 2026-03-14
     release: 36
-    mergedPR: 777
+    mergedPR: 778
     openPR: 181
     closedIssue: 115
     openIssue: 124
-    commit: 1793
+    commit: 1795
   last360d:
     since: 2025-09-15
     release: 71
-    mergedPR: 1543
+    mergedPR: 1544
     openPR: 239
     closedIssue: 256
     openIssue: 200
-    commit: 3580
+    commit: 3582
   last720d:
     since: 2024-09-20
     release: 100
-    mergedPR: 3064
+    mergedPR: 3065
     openPR: 333
     closedIssue: 538
     openIssue: 439
-    commit: 7822
+    commit: 7824
 total:
   release: 312
-  mergedPR: 23186
+  mergedPR: 23187
   openPR: 608
   closedIssue: 20346
   openIssue: 3280
-  commit: 57913
+  commit: 57915
 ---
 path: /home/runner/.x-repo/github.com/moby/moby
-collectedAt: 2026-09-10T16:17:07Z
+collectedAt: 2026-09-10T20:15:52Z
 loc:
   Go:
-    code: 1951194
-    comments: 368715
-    blanks: 276676
-    files: 10588
+    code: 1951352
+    comments: 368767
+    blanks: 276701
+    files: 10590
   Yaml:
     code: 372309
     comments: 1338
@@ -207,14 +207,14 @@ loc:
     files: 531
   Text:
     code: 0
-    comments: 21554
+    comments: 21557
     blanks: 594
     files: 43
 total:
-  code: 2389330
-  comments: 478466
-  blanks: 325988
-  files: 11686
+  code: 2389488
+  comments: 478521
+  blanks: 326013
+  files: 11688
 ---
 date: "2026-09-07"
 repo:
