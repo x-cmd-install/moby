@@ -1,14 +1,3 @@
-- repo: chimera
-  subrepo: user
-  srcname: moby
-  binname: moby-dinit
-  visiblename: moby-dinit
-  version: 29.7.2
-  origversion: 29.7.2-r1
-  status: outdated
-  summary: Container management daemon (service files)
-  licenses:
-    - Apache-2.0
 - repo: aerynos
   srcname: moby
   visiblename: moby
@@ -32,6 +21,17 @@
 - repo: chimera
   subrepo: user
   srcname: moby
+  binname: moby-dinit
+  visiblename: moby-dinit
+  version: 29.7.2
+  origversion: 29.7.2-r1
+  status: outdated
+  summary: Container management daemon (service files)
+  licenses:
+    - Apache-2.0
+- repo: chimera
+  subrepo: user
+  srcname: moby
   binname: moby-man
   visiblename: moby-man
   version: 29.7.2
@@ -50,12 +50,26 @@
   summary: An open platform for distributed applications for developers and sysadmins
   maintainers:
     - jaeger@crux.ninja
+- repo: solus
+  srcname: moby
+  binname: moby-dbginfo
+  visiblename: moby-dbginfo
+  version: 29.8.0
+  origversion: null
+  status: newest
+  summary: Debug symbols for moby
+  maintainers:
+    - jared@jaredcervantes.com
+  licenses:
+    - Apache-2.0
+  categories:
+    - debug
 - repo: exherbo
   subrepo: virtualization
   srcname: app-virtualization/moby
   visiblename: app-virtualization/moby
   version: 29.8.0
-  origversion: null
+  origversion: 29.8.0-r1
   status: newest
   summary: ship and run any application as a lightweight container
   maintainers:
@@ -127,15 +141,6 @@
   status: outdated
   maintainers:
     - prathamin@proton.me
-- repo: gnuguix
-  srcname: docker
-  binname: docker
-  visiblename: docker
-  version: 20.10.27
-  origversion: null
-  status: outdated
-  summary: Container component library and daemon
-  vulnerable: true
 - repo: liguros_develop
   srcname: app-containers/docker
   visiblename: app-containers/docker
@@ -200,20 +205,6 @@
     - Apache-2.0
   categories:
     - virt
-- repo: solus
-  srcname: moby
-  binname: moby-dbginfo
-  visiblename: moby-dbginfo
-  version: 29.8.0
-  origversion: null
-  status: newest
-  summary: Debug symbols for moby
-  maintainers:
-    - jared@jaredcervantes.com
-  licenses:
-    - Apache-2.0
-  categories:
-    - debug
 - repo: void_x86_64
   subrepo: x86_64
   srcname: moby
@@ -506,24 +497,6 @@
     - tpot@hpe.com
   categories:
     - misc
-  vulnerable: true
-- repo: openeuler_24_03_lts_sp1
-  srcname: moby
-  binnames:
-    - moby
-    - moby-engine
-    - moby-client
-    - libnetwork
-    - moby-debuginfo
-  visiblename: moby
-  version: 25.0.3
-  origversion: 25.0.3-22.oe2403sp1
-  status: outdated
-  summary: The open-source application container engine
-  licenses:
-    - Apache-2.0
-  categories:
-    - Unspecified
   vulnerable: true
 - repo: debian_14
   subrepo: forky/main
@@ -986,6 +959,15 @@
   categories:
     - app-containers
   vulnerable: true
+- repo: gnuguix
+  srcname: docker
+  binname: docker
+  visiblename: docker
+  version: 20.10.27
+  origversion: null
+  status: outdated
+  summary: Container component library and daemon
+  vulnerable: true
 - repo: kali_rolling
   subrepo: main
   srcname: docker.io
@@ -1121,6 +1103,28 @@
   categories:
     - app-containers
   vulnerable: true
+- repo: pureos_amber
+  subrepo: amber/main
+  srcname: docker.io
+  binnames:
+    - docker-doc
+    - docker.io
+    - golang-docker-dev
+    - golang-github-docker-docker-dev
+    - vim-syntax-docker
+  visiblename: docker.io
+  version: 18.09.1
+  origversion: 18.09.1+dfsg1-7.1+deb10u3
+  status: outdated
+  maintainers:
+    - onlyjob@debian.org
+    - arnaud.rebillout@collabora.com
+    - paultag@debian.org
+    - tianon@debian.org
+    - tpot@hpe.com
+  categories:
+    - doc
+  vulnerable: true
 - repo: liguros_develop
   srcname: app-containers/docker
   visiblename: app-containers/docker
@@ -1149,6 +1153,24 @@
   summary: The open-source application container engine
   licenses:
     - ASL 2.0
+  categories:
+    - Unspecified
+  vulnerable: true
+- repo: openeuler_24_03_lts_sp1
+  srcname: moby
+  binnames:
+    - moby
+    - moby-engine
+    - moby-client
+    - libnetwork
+    - moby-debuginfo
+  visiblename: moby
+  version: 25.0.3
+  origversion: 25.0.3-22.oe2403sp1
+  status: outdated
+  summary: The open-source application container engine
+  licenses:
+    - Apache-2.0
   categories:
     - Unspecified
   vulnerable: true
@@ -1334,28 +1356,6 @@
     - tpot@hpe.com
   categories:
     - misc
-  vulnerable: true
-- repo: pureos_amber
-  subrepo: amber/main
-  srcname: docker.io
-  binnames:
-    - docker-doc
-    - docker.io
-    - golang-docker-dev
-    - golang-github-docker-docker-dev
-    - vim-syntax-docker
-  visiblename: docker.io
-  version: 18.09.1
-  origversion: 18.09.1+dfsg1-7.1+deb10u3
-  status: outdated
-  maintainers:
-    - onlyjob@debian.org
-    - arnaud.rebillout@collabora.com
-    - paultag@debian.org
-    - tianon@debian.org
-    - tpot@hpe.com
-  categories:
-    - doc
   vulnerable: true
 - repo: pureos_byzantium
   subrepo: byzantium/main
