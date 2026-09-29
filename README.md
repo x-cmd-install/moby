@@ -14,11 +14,11 @@ x install moby
 
 ## Code insight
 
-Total: **2,403,091** lines of code across **10935** files in the top 5 languages.
+Total: **2,399,146** lines of code across **10914** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Go | 1,968,637 | 371,847 | 277,776 | 10621 |
+| Go | 1,964,692 | 370,687 | 276,932 | 10600 |
 | Yaml | 373,284 | 1,338 | 7,793 | 66 |
 | AssemblyGAS | 30,903 | 1,791 | 3,597 | 89 |
 | Json | 8,677 | 0 | 2 | 50 |
@@ -43,26 +43,26 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `docker-v29.8.1` (2026-09-15)
-- **Last commit**: 2026-09-27
+- **Last commit**: 2026-09-28
 
 ## Popularity
 
-- **Stars**: 72,143 · **Forks**: 19,238 · **Open issues**: 23,661 · **Contributors**: 2,331
+- **Stars**: 72,145 · **Forks**: 19,241 · **Open issues**: 23,661 · **Contributors**: 2,331
 
 ## Totals (cumulative)
 
-- **Releases**: 313 · **Merged PRs**: 23284 · **Open PRs**: 631 · **Closed issues**: 20370 · **Open issues**: 3291 · **Commits**: 58164
+- **Releases**: 313 · **Merged PRs**: 23298 · **Open PRs**: 626 · **Closed issues**: 20369 · **Open issues**: 3292 · **Commits**: 58217
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-29 | 4 | 143 | 60 | 21 | 31 | 266 |
-| last60d | 2026-07-30 | 12 | 283 | 104 | 39 | 67 | 669 |
-| 90d | 2026-06-30 | 15 | 440 | 138 | 50 | 95 | 1071 |
-| last180d | 2026-04-01 | 36 | 796 | 204 | 124 | 138 | 1824 |
-| 360d | 2025-10-03 | 70 | 1565 | 261 | 261 | 209 | 3640 |
-| last720d | 2024-10-08 | 100 | 3127 | 357 | 549 | 440 | 8037 |
+| 30d | 2026-08-30 | 4 | 156 | 55 | 21 | 32 | 306 |
+| last60d | 2026-07-31 | 11 | 292 | 97 | 37 | 67 | 709 |
+| 90d | 2026-07-01 | 15 | 448 | 133 | 50 | 95 | 1111 |
+| last180d | 2026-04-02 | 36 | 806 | 199 | 124 | 139 | 1864 |
+| 360d | 2025-10-04 | 70 | 1578 | 256 | 261 | 210 | 3680 |
+| last720d | 2024-10-09 | 100 | 3137 | 352 | 549 | 440 | 8083 |
 
 ## Improve this data
 
@@ -73,4 +73,4 @@ Install metadata for moby lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260928.yml` · 2026-09-28T05:19:32Z._
+_Snapshot: `data/card/260929.yml` · 2026-09-29T05:39:10Z._
