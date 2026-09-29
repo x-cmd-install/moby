@@ -44,11 +44,11 @@
   "discussion_url": "https://github.com/moby/moby/discussions/53685",
   "reactions": {
     "url": "https://api.github.com/repos/moby/moby/releases/389307118/reactions",
-    "total_count": 2,
+    "total_count": 3,
     "+1": 0,
     "-1": 0,
     "laugh": 0,
-    "hooray": 2,
+    "hooray": 3,
     "confused": 0,
     "heart": 0,
     "rocket": 0,
