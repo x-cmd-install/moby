@@ -43,26 +43,26 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `docker-v29.9.0-rc.1` (2026-10-01)
-- **Last commit**: 2026-10-01
+- **Last commit**: 2026-10-03
 
 ## Popularity
 
-- **Stars**: 72,142 · **Forks**: 19,234 · **Open issues**: 23,665 · **Contributors**: 2,332
+- **Stars**: 72,144 · **Forks**: 19,235 · **Open issues**: 23,666 · **Contributors**: 2,332
 
 ## Totals (cumulative)
 
-- **Releases**: 318 · **Merged PRs**: 23330 · **Open PRs**: 627 · **Closed issues**: 20372 · **Open issues**: 3293 · **Commits**: 58286
+- **Releases**: 318 · **Merged PRs**: 23331 · **Open PRs**: 629 · **Closed issues**: 20372 · **Open issues**: 3294 · **Commits**: 58288
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-03 | 9 | 146 | 56 | 19 | 30 | 359 |
-| last60d | 2026-08-04 | 15 | 305 | 94 | 34 | 64 | 767 |
-| 90d | 2026-07-05 | 20 | 470 | 135 | 52 | 96 | 1169 |
-| last180d | 2026-04-06 | 38 | 822 | 203 | 124 | 140 | 1922 |
-| 360d | 2025-10-08 | 75 | 1576 | 258 | 258 | 210 | 3738 |
-| last720d | 2024-10-13 | 100 | 3139 | 354 | 546 | 440 | 8106 |
+| 30d | 2026-09-04 | 6 | 142 | 60 | 18 | 30 | 307 |
+| last60d | 2026-08-05 | 15 | 302 | 98 | 33 | 64 | 702 |
+| 90d | 2026-07-06 | 20 | 467 | 138 | 51 | 97 | 1068 |
+| last180d | 2026-04-07 | 38 | 814 | 205 | 123 | 141 | 1877 |
+| 360d | 2025-10-09 | 74 | 1568 | 260 | 257 | 211 | 3659 |
+| last720d | 2024-10-14 | 100 | 3137 | 355 | 544 | 441 | 8108 |
 
 ## Improve this data
 
@@ -73,4 +73,4 @@ Install metadata for moby lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261003.yml` · 2026-10-03T05:22:16Z._
+_Snapshot: `data/card/261004.yml` · 2026-10-04T05:47:47Z._
