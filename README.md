@@ -47,7 +47,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 72,144 · **Forks**: 19,235 · **Open issues**: 23,666 · **Contributors**: 2,332
+- **Stars**: 72,148 · **Forks**: 19,237 · **Open issues**: 23,666 · **Contributors**: 2,332
 
 ## Totals (cumulative)
 
@@ -57,12 +57,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-04 | 6 | 142 | 60 | 18 | 30 | 307 |
-| last60d | 2026-08-05 | 15 | 302 | 98 | 33 | 64 | 702 |
-| 90d | 2026-07-06 | 20 | 467 | 138 | 51 | 97 | 1068 |
-| last180d | 2026-04-07 | 38 | 814 | 205 | 123 | 141 | 1877 |
-| 360d | 2025-10-09 | 74 | 1568 | 260 | 257 | 211 | 3659 |
-| last720d | 2024-10-14 | 100 | 3137 | 355 | 544 | 441 | 8108 |
+| 30d | 2026-09-05 | 6 | 140 | 60 | 17 | 29 | 307 |
+| last60d | 2026-08-06 | 15 | 297 | 98 | 32 | 61 | 702 |
+| 90d | 2026-07-07 | 20 | 465 | 138 | 50 | 96 | 1068 |
+| last180d | 2026-04-08 | 37 | 813 | 205 | 122 | 140 | 1877 |
+| 360d | 2025-10-10 | 74 | 1560 | 260 | 256 | 210 | 3659 |
+| last720d | 2024-10-15 | 100 | 3132 | 355 | 544 | 441 | 8104 |
 
 ## Improve this data
 
@@ -73,4 +73,4 @@ Install metadata for moby lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261004.yml` · 2026-10-04T05:47:47Z._
+_Snapshot: `data/card/261005.yml` · 2026-10-05T05:28:37Z._
