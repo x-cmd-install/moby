@@ -41,5 +41,17 @@
   "tarball_url": "https://api.github.com/repos/moby/moby/tarball/docker-v29.9.2",
   "zipball_url": "https://api.github.com/repos/moby/moby/zipball/docker-v29.9.2",
   "body": "## 29.9.2\r\n\r\nFor a full list of pull requests and changes in this release, refer to the relevant GitHub milestones:\r\n\r\n- [docker/cli, 29.9.2 milestone](https://github.com/docker/cli/issues?q=is%3Aclosed+milestone%3A29.9.2)\r\n- [moby/moby, 29.9.2 milestone](https://github.com/moby/moby/issues?q=is%3Aclosed+milestone%3A29.9.2)\r\n\r\n### Security\r\n\r\nThe Go runtime update addresses [CVE-2026-111943](https://go.dev/issue/82345) by rejecting certificate chains that include eight revoked eMudhra intermediate certificates.\r\nImage pulls and pushes fail TLS certificate verification if a registry's certificate chain relies on one of the affected TLS intermediates.\r\nAffected registries need a replacement certificate chain that does not use these intermediates.\r\n\r\nThe blocked intermediates are:\r\n\r\n- Domain-validated TLS: `EM DV TLS CA - G3B` and `EM DV TLS CA - G3C`\r\n- Organization-validated TLS: `EM OV TLS CA - G3B` and `EM OV TLS CA - G3C`\r\n- Extended-validation TLS: `EM EV TLS CA - G3B` and `EM EV TLS CA - G3C`\r\n- Code signing: `EM OV CS CA - G3B` and `EM OV CS CA - G3C`\r\n\r\nThe G3B intermediates belong to eMudhra BV, and the G3C intermediates belong to eMudhra Inc.\r\nThe keys for these intermediates were compromised.\r\n\r\n### Packaging updates\r\n\r\n- Update Go runtime to [1.26.10](https://go.dev/doc/devel/release#go1.26.10). [moby/moby#53989](https://github.com/moby/moby/pull/53989), [docker/cli#7418](https://github.com/docker/cli/pull/7418)",
-  "discussion_url": "https://github.com/moby/moby/discussions/53994"
+  "discussion_url": "https://github.com/moby/moby/discussions/53994",
+  "reactions": {
+    "url": "https://api.github.com/repos/moby/moby/releases/418790807/reactions",
+    "total_count": 1,
+    "+1": 0,
+    "-1": 0,
+    "laugh": 0,
+    "hooray": 1,
+    "confused": 0,
+    "heart": 0,
+    "rocket": 0,
+    "eyes": 0
+  }
 }
