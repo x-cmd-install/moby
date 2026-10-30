@@ -2,109 +2,109 @@ about:
   description: "The Moby Project - a collaborative project for the container ecosystem to assemble container-based systems"
   license: Apache-2.0
   homepage: https://mobyproject.org/
-  head: 9f07d92
+  head: f37bdce
   archived: false
   latestVersion: "docker-v29.9.2"
   latestRelease: "docker-v29.9.2"
   latestPrerelease: "docker-v29.9.0-rc.2"
-  collectedAt: 2026-10-29T05:38:27Z
+  collectedAt: 2026-10-30T05:56:59Z
 timeline:
   created: 2013-01-18
-  lastCommit: 2026-10-28
+  lastCommit: 2026-10-29
   lastVersion: 2026-10-20
   lastRelease: 2026-10-20
   lastPrerelease: 2026-10-07
 popularity:
-  star: 72223
-  watcher: 2837
-  fork: 19262
+  star: 72222
+  watcher: 2836
+  fork: 19282
   release: 323
   contributor: 2336
-  pullRequest: 29488
-  issue: 23697
+  pullRequest: 29498
+  issue: 23698
 language:
-  Go: 11737637
-  Shell: 161764
-  Dockerfile: 49718
+  Go: 11803666
+  Shell: 162661
+  Dockerfile: 50203
   PowerShell: 31922
   Lua: 24781
   Go Template: 19685
-  Makefile: 11394
+  Makefile: 11577
   Python: 7179
   C: 5678
   HCL: 4281
   Assembly: 81
-totalBytes: 12054120
+totalBytes: 12121714
 recent:
   last30d:
-    since: 2026-09-29
+    since: 2026-09-30
     release: 10
-    mergedPR: 120
-    openPR: 64
-    closedIssue: 16
-    openIssue: 23
-    commit: 215
+    mergedPR: 119
+    openPR: 62
+    closedIssue: 17
+    openIssue: 20
+    commit: 234
   last60d:
-    since: 2026-08-30
+    since: 2026-08-31
     release: 14
-    mergedPR: 297
-    openPR: 101
+    mergedPR: 303
+    openPR: 99
     closedIssue: 39
-    openIssue: 53
-    commit: 655
+    openIssue: 51
+    commit: 685
   last90d:
-    since: 2026-07-31
-    release: 21
-    mergedPR: 436
-    openPR: 138
-    closedIssue: 57
-    openIssue: 86
-    commit: 1028
+    since: 2026-08-01
+    release: 20
+    mergedPR: 446
+    openPR: 136
+    closedIssue: 58
+    openIssue: 85
+    commit: 1058
   last180d:
-    since: 2026-05-02
+    since: 2026-05-03
     release: 38
-    mergedPR: 834
-    openPR: 223
-    closedIssue: 112
-    openIssue: 148
-    commit: 1948
+    mergedPR: 845
+    openPR: 222
+    closedIssue: 114
+    openIssue: 147
+    commit: 1978
   last360d:
-    since: 2025-11-03
+    since: 2025-11-04
     release: 77
-    mergedPR: 1519
-    openPR: 279
-    closedIssue: 257
-    openIssue: 207
-    commit: 3507
+    mergedPR: 1527
+    openPR: 277
+    closedIssue: 256
+    openIssue: 206
+    commit: 3537
   last720d:
-    since: 2024-11-08
+    since: 2024-11-09
     release: 100
-    mergedPR: 3129
-    openPR: 377
-    closedIssue: 549
-    openIssue: 441
-    commit: 8070
+    mergedPR: 3140
+    openPR: 375
+    closedIssue: 552
+    openIssue: 439
+    commit: 8099
 total:
   release: 323
-  mergedPR: 23444
-  openPR: 655
-  closedIssue: 20394
-  openIssue: 3303
-  commit: 58560
+  mergedPR: 23456
+  openPR: 653
+  closedIssue: 20398
+  openIssue: 3300
+  commit: 58591
 ---
 path: /home/runner/.x-repo/github.com/moby/moby
-collectedAt: 2026-10-29T05:38:56Z
+collectedAt: 2026-10-30T05:57:31Z
 loc:
   Go:
-    code: 1974591
-    comments: 376073
-    blanks: 278085
-    files: 10744
+    code: 1976106
+    comments: 376338
+    blanks: 278219
+    files: 10751
   Yaml:
-    code: 373177
-    comments: 1338
-    blanks: 7793
-    files: 66
+    code: 388001
+    comments: 1370
+    blanks: 8030
+    files: 67
   AssemblyGAS:
     code: 34701
     comments: 2155
@@ -121,17 +121,17 @@ loc:
     blanks: 2625
     files: 111
   Sh:
-    code: 4987
-    comments: 714
-    blanks: 682
-    files: 50
+    code: 5007
+    comments: 718
+    blanks: 687
+    files: 51
   Makefile:
-    code: 2236
+    code: 2239
     comments: 476
-    blanks: 654
+    blanks: 655
     files: 50
   Bash:
-    code: 1327
+    code: 1328
     comments: 272
     blanks: 236
     files: 34
@@ -141,8 +141,8 @@ loc:
     blanks: 42
     files: 5
   Dockerfile:
-    code: 983
-    comments: 126
+    code: 992
+    comments: 127
     blanks: 170
     files: 22
   Hcl:
@@ -202,8 +202,8 @@ loc:
     files: 1
   Markdown:
     code: 0
-    comments: 78695
-    blanks: 32265
+    comments: 78726
+    blanks: 32273
     files: 533
   Text:
     code: 0
@@ -211,10 +211,10 @@ loc:
     blanks: 594
     files: 43
 total:
-  code: 2417355
-  comments: 486972
-  blanks: 328206
-  files: 11855
+  code: 2433727
+  comments: 487305
+  blanks: 328591
+  files: 11864
 ---
 date: "2026-10-26"
 repo:
