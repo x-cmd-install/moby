@@ -1,7 +1,7 @@
 - repo: aerynos
   srcname: moby
   visiblename: moby
-  version: 29.9.2
+  version: 29.9.3
   origversion: null
   status: newest
   summary: The open-source application container engine
@@ -46,7 +46,7 @@
   visiblename: docker
   version: 29.9.2
   origversion: null
-  status: newest
+  status: outdated
   summary: An open platform for distributed applications for developers and sysadmins
   maintainers:
     - jaeger@crux.ninja
@@ -54,7 +54,7 @@
   subrepo: virtualization
   srcname: app-virtualization/moby
   visiblename: app-virtualization/moby
-  version: 29.9.2
+  version: 29.9.3
   origversion: null
   status: newest
   summary: ship and run any application as a lightweight container
@@ -189,7 +189,7 @@
   visiblename: docker
   version: 29.9.2
   origversion: null
-  status: newest
+  status: outdated
   summary: Pack, ship and run any application as a lightweight container
   maintainers:
     - ertugrulerata@gmail.com
@@ -213,7 +213,7 @@
   visiblename: moby
   version: 29.9.2
   origversion: null
-  status: newest
+  status: outdated
   summary: The open-source application container engine
   maintainers:
     - jared@jaredcervantes.com
@@ -227,7 +227,7 @@
   visiblename: moby-dbginfo
   version: 29.9.2
   origversion: null
-  status: newest
+  status: outdated
   summary: Debug symbols for moby
   maintainers:
     - jared@jaredcervantes.com
@@ -254,7 +254,7 @@
   visiblename: docker
   version: 29.9.2
   origversion: 29.9.2-1
-  status: newest
+  status: outdated
   summary: An open platform for distributed applications for developers and sysadmins
   maintainers:
     - wonkru-dev@proton.me
@@ -263,24 +263,10 @@
   visiblename: Moby
   version: 29.9.2
   origversion: null
-  status: newest
+  status: outdated
   summary: open framework created by Docker to assemble specialized container systems
   licenses:
     - Apache Software License 2.0
-- repo: openkylin_2_0
-  subrepo: nile/main
-  srcname: docker.io
-  binnames:
-    - golang-github-docker-docker-dev
-  visiblename: docker.io
-  version: 20.10.25
-  origversion: 20.10.25+dfsg1-ok4
-  status: outdated
-  maintainers:
-    - packaging@lists.openkylin.top
-  categories:
-    - admin
-  vulnerable: true
 - repo: apertis_v2023
   subrepo: v2023/development
   srcname: docker.io
@@ -434,6 +420,27 @@
     - jaeger@crux.ninja
   vulnerable: true
 - repo: debian_11
+  subrepo: bullseye-security/main
+  srcname: docker.io
+  binnames:
+    - docker.io
+    - golang-github-docker-docker-dev
+    - docker-doc
+  visiblename: docker.io
+  version: 20.10.5
+  origversion: 20.10.5+dfsg1-1+deb11u4
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - elboulangero@gmail.com
+    - onlyjob@debian.org
+    - paultag@debian.org
+    - tianon@debian.org
+    - tpot@hpe.com
+  categories:
+    - misc
+  vulnerable: true
+- repo: debian_11
   subrepo: bullseye/main
   srcname: docker.io
   binnames:
@@ -464,27 +471,6 @@
   visiblename: docker.io
   version: 20.10.5
   origversion: 20.10.5+dfsg1-1+deb11u2
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - elboulangero@gmail.com
-    - onlyjob@debian.org
-    - paultag@debian.org
-    - tianon@debian.org
-    - tpot@hpe.com
-  categories:
-    - misc
-  vulnerable: true
-- repo: debian_11
-  subrepo: bullseye-security/main
-  srcname: docker.io
-  binnames:
-    - docker.io
-    - golang-github-docker-docker-dev
-    - docker-doc
-  visiblename: docker.io
-  version: 20.10.5
-  origversion: 20.10.5+dfsg1-1+deb11u4
   status: outdated
   maintainers:
     - team+pkg-go@tracker.debian.org
@@ -584,6 +570,29 @@
   categories:
     - misc
   vulnerable: true
+- repo: deepin_23
+  subrepo: main
+  srcname: docker.io
+  binnames:
+    - docker.io
+    - docker-cli
+    - golang-github-docker-docker-dev
+    - docker-doc
+  visiblename: docker.io
+  version: 26.1.5
+  origversion: 26.1.5+dfsg1-4
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - arnaudr@kali.org
+    - onlyjob@debian.org
+    - paultag@debian.org
+    - siretart@tauware.de
+    - tianon@debian.org
+    - tpot@hpe.com
+  categories:
+    - admin
+  vulnerable: true
 - repo: debian_13
   subrepo: trixie/main
   srcname: docker.io
@@ -675,15 +684,6 @@
     - tpot@hpe.com
   categories:
     - misc
-  vulnerable: true
-- repo: gnuguix
-  srcname: docker
-  binname: docker
-  visiblename: docker
-  version: 20.10.27
-  origversion: null
-  status: outdated
-  summary: Container component library and daemon
   vulnerable: true
 - repo: debian_14
   subrepo: forky/main
@@ -846,6 +846,20 @@
   categories:
     - misc
   vulnerable: true
+- repo: liguros_stable
+  srcname: app-containers/docker
+  visiblename: app-containers/docker
+  version: 28.0.1
+  origversion: null
+  status: legacy
+  summary: The core functions you need to create Docker images and run Docker containers
+  maintainers:
+    - williamh@gentoo.org
+  licenses:
+    - Apache-2.0
+  categories:
+    - app-containers
+  vulnerable: true
 - repo: debian_unstable
   subrepo: sid/main
   srcname: docker.io
@@ -911,29 +925,6 @@
     - paultag@debian.org
     - tianon@debian.org
     - tpot@hpe.com
-  vulnerable: true
-- repo: deepin_23
-  subrepo: main
-  srcname: docker.io
-  binnames:
-    - docker.io
-    - docker-cli
-    - golang-github-docker-docker-dev
-    - docker-doc
-  visiblename: docker.io
-  version: 26.1.5
-  origversion: 26.1.5+dfsg1-4
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - arnaudr@kali.org
-    - onlyjob@debian.org
-    - paultag@debian.org
-    - siretart@tauware.de
-    - tianon@debian.org
-    - tpot@hpe.com
-  categories:
-    - admin
   vulnerable: true
 - repo: deepin_25
   subrepo: main
@@ -1002,20 +993,6 @@
   categories:
     - misc
   vulnerable: true
-- repo: openkylin_2_0
-  subrepo: nile-proposed/main
-  srcname: docker.io
-  binnames:
-    - golang-github-docker-docker-dev
-  visiblename: docker.io
-  version: 20.10.25
-  origversion: 20.10.25+dfsg1-ok4
-  status: outdated
-  maintainers:
-    - packaging@lists.openkylin.top
-  categories:
-    - admin
-  vulnerable: true
 - repo: gentoo
   srcname: app-containers/docker
   visiblename: app-containers/docker
@@ -1030,6 +1007,15 @@
     - Apache-2.0
   categories:
     - app-containers
+  vulnerable: true
+- repo: gnuguix
+  srcname: docker
+  binname: docker
+  visiblename: docker
+  version: 20.10.27
+  origversion: null
+  status: outdated
+  summary: Container component library and daemon
   vulnerable: true
 - repo: kali_rolling
   subrepo: main
@@ -1058,20 +1044,6 @@
   srcname: app-containers/docker
   visiblename: app-containers/docker
   version: 28.0.4
-  origversion: null
-  status: legacy
-  summary: The core functions you need to create Docker images and run Docker containers
-  maintainers:
-    - williamh@gentoo.org
-  licenses:
-    - Apache-2.0
-  categories:
-    - app-containers
-  vulnerable: true
-- repo: liguros_stable
-  srcname: app-containers/docker
-  visiblename: app-containers/docker
-  version: 28.0.1
   origversion: null
   status: legacy
   summary: The core functions you need to create Docker images and run Docker containers
@@ -1178,6 +1150,34 @@
   categories:
     - Unspecified
   vulnerable: true
+- repo: openkylin_2_0
+  subrepo: nile/main
+  srcname: docker.io
+  binnames:
+    - golang-github-docker-docker-dev
+  visiblename: docker.io
+  version: 20.10.25
+  origversion: 20.10.25+dfsg1-ok4
+  status: outdated
+  maintainers:
+    - packaging@lists.openkylin.top
+  categories:
+    - admin
+  vulnerable: true
+- repo: openkylin_2_0
+  subrepo: nile-proposed/main
+  srcname: docker.io
+  binnames:
+    - golang-github-docker-docker-dev
+  visiblename: docker.io
+  version: 20.10.25
+  origversion: 20.10.25+dfsg1-ok4
+  status: outdated
+  maintainers:
+    - packaging@lists.openkylin.top
+  categories:
+    - admin
+  vulnerable: true
 - repo: openkylin_3_0
   subrepo: huanghe/main
   srcname: docker.io
@@ -1270,7 +1270,7 @@
     - misc
   vulnerable: true
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: docker.io
   binnames:
     - docker.io
@@ -1293,7 +1293,7 @@
     - misc
   vulnerable: true
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: docker.io
   binnames:
     - docker.io
