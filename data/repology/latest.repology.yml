@@ -252,18 +252,18 @@
   subrepo: community
   srcname: docker
   visiblename: docker
-  version: 29.9.2
-  origversion: 29.9.2-1
-  status: outdated
+  version: 29.9.3
+  origversion: 29.9.3-1
+  status: newest
   summary: An open platform for distributed applications for developers and sysadmins
   maintainers:
     - wonkru-dev@proton.me
 - repo: wikidata
   srcname: Q96276695
   visiblename: Moby
-  version: 29.9.2
+  version: 29.9.3
   origversion: null
-  status: outdated
+  status: newest
   summary: open framework created by Docker to assemble specialized container systems
   licenses:
     - Apache Software License 2.0
@@ -334,7 +334,7 @@
     - docker-doc
   visiblename: docker.io
   version: 26.1.5
-  origversion: 26.1.5+dfsg1-9+apertis0
+  origversion: 26.1.5+dfsg1-9+deb13u1+apertis0
   status: outdated
   maintainers:
     - team+pkg-go@tracker.debian.org
@@ -407,6 +407,29 @@
     - siretart@tauware.de
     - tianon@debian.org
     - tpot@hpe.com
+  vulnerable: true
+- repo: parrot
+  subrepo: parrot/main
+  srcname: docker.io
+  binnames:
+    - docker.io
+    - docker-cli
+    - golang-github-docker-docker-dev
+    - docker-doc
+  visiblename: docker.io
+  version: 26.1.5
+  origversion: 26.1.5+dfsg1-9+deb13u1
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - arnaudr@kali.org
+    - onlyjob@debian.org
+    - paultag@debian.org
+    - siretart@tauware.de
+    - tianon@debian.org
+    - tpot@hpe.com
+  categories:
+    - misc
   vulnerable: true
 - repo: crux_37
   subrepo: contrib
@@ -569,29 +592,6 @@
     - tpot@hpe.com
   categories:
     - misc
-  vulnerable: true
-- repo: deepin_23
-  subrepo: main
-  srcname: docker.io
-  binnames:
-    - docker.io
-    - docker-cli
-    - golang-github-docker-docker-dev
-    - docker-doc
-  visiblename: docker.io
-  version: 26.1.5
-  origversion: 26.1.5+dfsg1-4
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - arnaudr@kali.org
-    - onlyjob@debian.org
-    - paultag@debian.org
-    - siretart@tauware.de
-    - tianon@debian.org
-    - tpot@hpe.com
-  categories:
-    - admin
   vulnerable: true
 - repo: debian_13
   subrepo: trixie/main
@@ -846,20 +846,6 @@
   categories:
     - misc
   vulnerable: true
-- repo: liguros_stable
-  srcname: app-containers/docker
-  visiblename: app-containers/docker
-  version: 28.0.1
-  origversion: null
-  status: legacy
-  summary: The core functions you need to create Docker images and run Docker containers
-  maintainers:
-    - williamh@gentoo.org
-  licenses:
-    - Apache-2.0
-  categories:
-    - app-containers
-  vulnerable: true
 - repo: debian_unstable
   subrepo: sid/main
   srcname: docker.io
@@ -925,6 +911,29 @@
     - paultag@debian.org
     - tianon@debian.org
     - tpot@hpe.com
+  vulnerable: true
+- repo: deepin_23
+  subrepo: main
+  srcname: docker.io
+  binnames:
+    - docker.io
+    - docker-cli
+    - golang-github-docker-docker-dev
+    - docker-doc
+  visiblename: docker.io
+  version: 26.1.5
+  origversion: 26.1.5+dfsg1-4
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - arnaudr@kali.org
+    - onlyjob@debian.org
+    - paultag@debian.org
+    - siretart@tauware.de
+    - tianon@debian.org
+    - tpot@hpe.com
+  categories:
+    - admin
   vulnerable: true
 - repo: deepin_25
   subrepo: main
@@ -1057,6 +1066,20 @@
 - repo: liguros_stable
   srcname: app-containers/docker
   visiblename: app-containers/docker
+  version: 28.0.1
+  origversion: null
+  status: legacy
+  summary: The core functions you need to create Docker images and run Docker containers
+  maintainers:
+    - williamh@gentoo.org
+  licenses:
+    - Apache-2.0
+  categories:
+    - app-containers
+  vulnerable: true
+- repo: liguros_stable
+  srcname: app-containers/docker
+  visiblename: app-containers/docker
   version: 28.1.1
   origversion: null
   status: legacy
@@ -1081,6 +1104,29 @@
     - Apache-2.0
   categories:
     - app-containers
+  vulnerable: true
+- repo: parrot
+  subrepo: parrot-updates/main
+  srcname: docker.io
+  binnames:
+    - docker.io
+    - docker-cli
+    - golang-github-docker-docker-dev
+    - docker-doc
+  visiblename: docker.io
+  version: 26.1.5
+  origversion: 26.1.5+dfsg1-9+deb13u1
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - arnaudr@kali.org
+    - onlyjob@debian.org
+    - paultag@debian.org
+    - siretart@tauware.de
+    - tianon@debian.org
+    - tpot@hpe.com
+  categories:
+    - misc
   vulnerable: true
 - repo: liguros_develop
   srcname: app-containers/docker
@@ -1264,52 +1310,6 @@
     - elboulangero@gmail.com
     - onlyjob@debian.org
     - paultag@debian.org
-    - tianon@debian.org
-    - tpot@hpe.com
-  categories:
-    - misc
-  vulnerable: true
-- repo: parrot
-  subrepo: parrot-updates/main
-  srcname: docker.io
-  binnames:
-    - docker.io
-    - docker-cli
-    - golang-github-docker-docker-dev
-    - docker-doc
-  visiblename: docker.io
-  version: 26.1.5
-  origversion: 26.1.5+dfsg1-9+deb13u1
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - arnaudr@kali.org
-    - onlyjob@debian.org
-    - paultag@debian.org
-    - siretart@tauware.de
-    - tianon@debian.org
-    - tpot@hpe.com
-  categories:
-    - misc
-  vulnerable: true
-- repo: parrot
-  subrepo: parrot/main
-  srcname: docker.io
-  binnames:
-    - docker.io
-    - docker-cli
-    - golang-github-docker-docker-dev
-    - docker-doc
-  visiblename: docker.io
-  version: 26.1.5
-  origversion: 26.1.5+dfsg1-9+deb13u1
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - arnaudr@kali.org
-    - onlyjob@debian.org
-    - paultag@debian.org
-    - siretart@tauware.de
     - tianon@debian.org
     - tpot@hpe.com
   categories:
