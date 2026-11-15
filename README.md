@@ -47,26 +47,26 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 72,258 · **Forks**: 19,308 · **Open issues**: 23,714 · **Contributors**: 2,369
+- **Stars**: 72,264 · **Forks**: 19,313 · **Open issues**: 23,715 · **Contributors**: 2,369
 
 ## Totals (cumulative)
 
-- **Releases**: 328 · **Merged PRs**: 23560 · **Open PRs**: 634 · **Closed issues**: 20408 · **Open issues**: 3306 · **Commits**: 59520
+- **Releases**: 328 · **Merged PRs**: 23560 · **Open PRs**: 635 · **Closed issues**: 20408 · **Open issues**: 3307 · **Commits**: 59520
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-15 | 6 | 132 | 40 | 9 | 20 | 318 |
-| last60d | 2026-09-15 | 16 | 314 | 71 | 31 | 43 | 720 |
-| 90d | 2026-08-16 | 20 | 488 | 104 | 58 | 77 | 1154 |
-| last180d | 2026-05-18 | 40 | 887 | 196 | 104 | 152 | 2084 |
-| 360d | 2025-11-19 | 72 | 1519 | 259 | 233 | 208 | 3571 |
-| last720d | 2024-11-24 | 100 | 3184 | 355 | 552 | 436 | 8258 |
+| 30d | 2026-10-16 | 6 | 130 | 41 | 9 | 21 | 277 |
+| last60d | 2026-09-16 | 15 | 304 | 72 | 29 | 42 | 575 |
+| 90d | 2026-08-17 | 20 | 486 | 105 | 58 | 78 | 1086 |
+| last180d | 2026-05-19 | 39 | 883 | 198 | 99 | 153 | 2043 |
+| 360d | 2025-11-20 | 72 | 1517 | 259 | 229 | 209 | 3522 |
+| last720d | 2024-11-25 | 100 | 3176 | 356 | 548 | 436 | 8258 |
 
 ## Distribution status
 
-Reported by **89** distros on [repology.org](https://repology.org/project/moby). **9** are ✅ on the latest upstream release, **66** are ⚠️ on an older version.
+Reported by **89** distros on [repology.org](https://repology.org/project/moby). **10** are ✅ on the latest upstream release, **65** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -86,4 +86,4 @@ Install metadata for moby lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261114.yml` · 2026-11-14T06:13:14Z._
+_Snapshot: `data/card/261115.yml` · 2026-11-15T06:17:56Z._
