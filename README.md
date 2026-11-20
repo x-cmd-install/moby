@@ -14,11 +14,11 @@ x install moby
 
 ## Code insight
 
-Total: **2,478,106** lines of code across **11180** files in the top 5 languages.
+Total: **2,478,202** lines of code across **11182** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Go | 1,995,786 | 380,691 | 281,166 | 10853 |
+| Go | 1,995,877 | 380,717 | 281,181 | 10855 |
 | Yaml | 416,601 | 1,435 | 8,547 | 69 |
 | AssemblyGAS | 34,701 | 2,155 | 3,965 | 94 |
 | Json | 9,041 | 0 | 2 | 50 |
@@ -43,30 +43,30 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `docker-v29.10.0` (2026-11-16)
-- **Last commit**: 2026-11-18
+- **Last commit**: 2026-11-19
 
 ## Popularity
 
-- **Stars**: 72,275 · **Forks**: 19,413 · **Open issues**: 23,724 · **Contributors**: 2,369
+- **Stars**: 72,299 · **Forks**: 19,413 · **Open issues**: 23,726 · **Contributors**: 2,370
 
 ## Totals (cumulative)
 
-- **Releases**: 329 · **Merged PRs**: 23568 · **Open PRs**: 636 · **Closed issues**: 20414 · **Open issues**: 3310 · **Commits**: 59536
+- **Releases**: 329 · **Merged PRs**: 23574 · **Open PRs**: 640 · **Closed issues**: 20415 · **Open issues**: 3311 · **Commits**: 59545
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-20 | 7 | 128 | 38 | 11 | 26 | 293 |
-| last60d | 2026-09-20 | 16 | 288 | 71 | 30 | 45 | 591 |
-| 90d | 2026-08-21 | 21 | 469 | 101 | 58 | 79 | 1102 |
-| last180d | 2026-05-23 | 39 | 875 | 199 | 99 | 154 | 2059 |
-| 360d | 2025-11-24 | 73 | 1518 | 261 | 231 | 211 | 3538 |
-| last720d | 2024-11-29 | 100 | 3155 | 355 | 549 | 439 | 8209 |
+| 30d | 2026-10-21 | 6 | 131 | 42 | 11 | 25 | 302 |
+| last60d | 2026-09-21 | 16 | 288 | 75 | 31 | 46 | 600 |
+| 90d | 2026-08-22 | 21 | 474 | 106 | 59 | 80 | 1111 |
+| last180d | 2026-05-24 | 39 | 880 | 203 | 99 | 155 | 2068 |
+| 360d | 2025-11-25 | 71 | 1523 | 265 | 231 | 210 | 3547 |
+| last720d | 2024-11-30 | 100 | 3154 | 359 | 550 | 440 | 8209 |
 
 ## Distribution status
 
-Reported by **90** distros on [repology.org](https://repology.org/project/moby). **7** are ✅ on the latest upstream release, **67** are ⚠️ on an older version.
+Reported by **89** distros on [repology.org](https://repology.org/project/moby). **9** are ✅ on the latest upstream release, **64** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -86,4 +86,4 @@ Install metadata for moby lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261119.yml` · 2026-11-19T07:21:47Z._
+_Snapshot: `data/card/261120.yml` · 2026-11-20T07:10:10Z._
