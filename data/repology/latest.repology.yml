@@ -1,14 +1,3 @@
-- repo: chimera
-  subrepo: user
-  srcname: moby
-  binname: moby-man
-  visiblename: moby-man
-  version: 29.8.1
-  origversion: 29.8.1-r2
-  status: outdated
-  summary: Container management daemon (manual pages)
-  licenses:
-    - Apache-2.0
 - repo: aerynos
   srcname: moby
   visiblename: moby
@@ -38,6 +27,17 @@
   origversion: 29.8.1-r2
   status: outdated
   summary: Container management daemon (service files)
+  licenses:
+    - Apache-2.0
+- repo: chimera
+  subrepo: user
+  srcname: moby
+  binname: moby-man
+  visiblename: moby-man
+  version: 29.8.1
+  origversion: 29.8.1-r2
+  status: outdated
+  summary: Container management daemon (manual pages)
   licenses:
     - Apache-2.0
 - repo: crux_38
@@ -239,15 +239,6 @@
     - Apache-2.0
   categories:
     - app-containers
-- repo: gnuguix
-  srcname: docker
-  binname: docker
-  visiblename: docker
-  version: 20.10.27
-  origversion: null
-  status: outdated
-  summary: Container component library and daemon
-  vulnerable: true
 - repo: pisi_main
   subrepo: main
   srcname: hardware/virtualization/docker
@@ -331,7 +322,7 @@
   status: newest
   summary: open framework created by Docker to assemble specialized container systems
   licenses:
-    - Apache Software License 2.0
+    - Apache License 2.0
 - repo: apertis_v2023
   subrepo: v2023/development
   srcname: docker.io
@@ -823,6 +814,20 @@
   categories:
     - misc
   vulnerable: true
+- repo: openkylin_3_0
+  subrepo: huanghe-proposed/main
+  srcname: docker.io
+  binnames:
+    - golang-github-docker-docker-dev
+  visiblename: docker.io
+  version: 20.10.25
+  origversion: 20.10.25+dfsg1-ok4
+  status: outdated
+  maintainers:
+    - packaging@lists.openkylin.top
+  categories:
+    - admin
+  vulnerable: true
 - repo: debian_experimental
   subrepo: experimental/main
   srcname: docker.io
@@ -950,6 +955,15 @@
     - Apache-2.0
   categories:
     - app-containers
+  vulnerable: true
+- repo: gnuguix
+  srcname: docker
+  binname: docker
+  visiblename: docker
+  version: 20.10.27
+  origversion: null
+  status: outdated
+  summary: Container component library and daemon
   vulnerable: true
 - repo: kali_rolling
   subrepo: main
@@ -1128,20 +1142,6 @@
   vulnerable: true
 - repo: openkylin_3_0
   subrepo: huanghe/main
-  srcname: docker.io
-  binnames:
-    - golang-github-docker-docker-dev
-  visiblename: docker.io
-  version: 20.10.25
-  origversion: 20.10.25+dfsg1-ok4
-  status: outdated
-  maintainers:
-    - packaging@lists.openkylin.top
-  categories:
-    - admin
-  vulnerable: true
-- repo: openkylin_3_0
-  subrepo: huanghe-proposed/main
   srcname: docker.io
   binnames:
     - golang-github-docker-docker-dev
@@ -1409,13 +1409,13 @@
     - Apache-2.0
   vulnerable: true
 - repo: ubuntu_24_04
-  subrepo: noble/universe
+  subrepo: noble-updates/universe
   srcname: docker.io
   binnames:
     - golang-github-docker-docker-dev
   visiblename: docker.io
   version: 20.10.25
-  origversion: 20.10.25+dfsg1-2ubuntu1
+  origversion: 20.10.25+dfsg1-2ubuntu1.24.04.1
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
@@ -1428,13 +1428,13 @@
     - universe/misc
   vulnerable: true
 - repo: ubuntu_24_04
-  subrepo: noble-updates/universe
+  subrepo: noble/universe
   srcname: docker.io
   binnames:
     - golang-github-docker-docker-dev
   visiblename: docker.io
   version: 20.10.25
-  origversion: 20.10.25+dfsg1-2ubuntu1.24.04.1
+  origversion: 20.10.25+dfsg1-2ubuntu1
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
