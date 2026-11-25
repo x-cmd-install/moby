@@ -50,20 +50,6 @@
   summary: An open platform for distributed applications for developers and sysadmins
   maintainers:
     - jaeger@crux.ninja
-- repo: pisi_main
-  subrepo: main
-  srcname: hardware/virtualization/docker
-  visiblename: docker
-  version: 29.10.0
-  origversion: null
-  status: newest
-  summary: Pack, ship and run any application as a lightweight container
-  maintainers:
-    - ertugrulerata@gmail.com
-  licenses:
-    - Apache
-  categories:
-    - app:console
 - repo: exherbo
   subrepo: virtualization
   srcname: app-virtualization/moby
@@ -253,6 +239,20 @@
     - Apache-2.0
   categories:
     - app-containers
+- repo: pisi_main
+  subrepo: main
+  srcname: hardware/virtualization/docker
+  visiblename: docker
+  version: 29.10.0
+  origversion: null
+  status: newest
+  summary: Pack, ship and run any application as a lightweight container
+  maintainers:
+    - ertugrulerata@gmail.com
+  licenses:
+    - Apache
+  categories:
+    - app:console
 - repo: slackbuilds
   srcname: system/docker
   visiblename: system/docker
@@ -323,27 +323,6 @@
   summary: open framework created by Docker to assemble specialized container systems
   licenses:
     - Apache License 2.0
-- repo: raspbian_oldstable
-  subrepo: main
-  srcname: docker.io
-  binnames:
-    - docker.io
-    - golang-github-docker-docker-dev
-    - docker-doc
-  visiblename: docker.io
-  version: 20.10.24
-  origversion: 20.10.24+dfsg1-1+deb12u1
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - arnaudr@kali.org
-    - onlyjob@debian.org
-    - paultag@debian.org
-    - tianon@debian.org
-    - tpot@hpe.com
-  categories:
-    - misc
-  vulnerable: true
 - repo: apertis_v2023
   subrepo: v2023/development
   srcname: docker.io
@@ -381,29 +360,6 @@
     - paultag@debian.org
     - tianon@debian.org
     - tpot@hpe.com
-  vulnerable: true
-- repo: raspbian_stable
-  subrepo: main
-  srcname: docker.io
-  binnames:
-    - docker.io
-    - docker-cli
-    - golang-github-docker-docker-dev
-    - docker-doc
-  visiblename: docker.io
-  version: 26.1.5
-  origversion: 26.1.5+dfsg1-9+deb13u1
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - arnaudr@kali.org
-    - onlyjob@debian.org
-    - paultag@debian.org
-    - siretart@tauware.de
-    - tianon@debian.org
-    - tpot@hpe.com
-  categories:
-    - misc
   vulnerable: true
 - repo: apertis_v2025
   subrepo: v2025/development
@@ -478,6 +434,27 @@
     - jaeger@crux.ninja
   vulnerable: true
 - repo: debian_11
+  subrepo: bullseye-security/main
+  srcname: docker.io
+  binnames:
+    - docker.io
+    - golang-github-docker-docker-dev
+    - docker-doc
+  visiblename: docker.io
+  version: 20.10.5
+  origversion: 20.10.5+dfsg1-1+deb11u4
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - elboulangero@gmail.com
+    - onlyjob@debian.org
+    - paultag@debian.org
+    - tianon@debian.org
+    - tpot@hpe.com
+  categories:
+    - misc
+  vulnerable: true
+- repo: debian_11
   subrepo: bullseye/main
   srcname: docker.io
   binnames:
@@ -508,27 +485,6 @@
   visiblename: docker.io
   version: 20.10.5
   origversion: 20.10.5+dfsg1-1+deb11u2
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - elboulangero@gmail.com
-    - onlyjob@debian.org
-    - paultag@debian.org
-    - tianon@debian.org
-    - tpot@hpe.com
-  categories:
-    - misc
-  vulnerable: true
-- repo: debian_11
-  subrepo: bullseye-security/main
-  srcname: docker.io
-  binnames:
-    - docker.io
-    - golang-github-docker-docker-dev
-    - docker-doc
-  visiblename: docker.io
-  version: 20.10.5
-  origversion: 20.10.5+dfsg1-1+deb11u4
   status: outdated
   maintainers:
     - team+pkg-go@tracker.debian.org
@@ -575,6 +531,27 @@
   maintainers:
     - team+pkg-go@tracker.debian.org
     - arnaudr@kali.org
+    - onlyjob@debian.org
+    - paultag@debian.org
+    - tianon@debian.org
+    - tpot@hpe.com
+  categories:
+    - misc
+  vulnerable: true
+- repo: devuan_4_0
+  subrepo: chimaera/main
+  srcname: docker.io
+  binnames:
+    - docker.io
+    - golang-github-docker-docker-dev
+    - docker-doc
+  visiblename: docker.io
+  version: 20.10.5
+  origversion: 20.10.5+dfsg1-1+deb11u2
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - elboulangero@gmail.com
     - onlyjob@debian.org
     - paultag@debian.org
     - tianon@debian.org
@@ -927,27 +904,6 @@
   categories:
     - admin
   vulnerable: true
-- repo: devuan_4_0
-  subrepo: chimaera/main
-  srcname: docker.io
-  binnames:
-    - docker.io
-    - golang-github-docker-docker-dev
-    - docker-doc
-  visiblename: docker.io
-  version: 20.10.5
-  origversion: 20.10.5+dfsg1-1+deb11u2
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - elboulangero@gmail.com
-    - onlyjob@debian.org
-    - paultag@debian.org
-    - tianon@debian.org
-    - tpot@hpe.com
-  categories:
-    - misc
-  vulnerable: true
 - repo: devuan_unstable
   subrepo: unstable/main
   srcname: docker.io
@@ -1106,29 +1062,6 @@
   categories:
     - Unspecified
   vulnerable: true
-- repo: raspbian_testing
-  subrepo: main
-  srcname: docker.io
-  binnames:
-    - docker.io
-    - docker-cli
-    - golang-github-docker-docker-dev
-    - docker-doc
-  visiblename: docker.io
-  version: 28.5.2
-  origversion: 28.5.2+dfsg4-5
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - arnaudr@kali.org
-    - onlyjob@debian.org
-    - paultag@debian.org
-    - siretart@tauware.de
-    - tianon@debian.org
-    - tpot@hpe.com
-  categories:
-    - misc
-  vulnerable: true
 - repo: openeuler_24_03_lts_sp1
   srcname: moby
   binnames:
@@ -1222,6 +1155,27 @@
     - admin
   vulnerable: true
 - repo: pardus_21
+  subrepo: updates/main
+  srcname: docker.io
+  binnames:
+    - docker.io
+    - golang-github-docker-docker-dev
+    - docker-doc
+  visiblename: docker.io
+  version: 20.10.5
+  origversion: 20.10.5+dfsg1-1+deb11u4
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - elboulangero@gmail.com
+    - onlyjob@debian.org
+    - paultag@debian.org
+    - tianon@debian.org
+    - tpot@hpe.com
+  categories:
+    - misc
+  vulnerable: true
+- repo: pardus_21
   subrepo: main
   srcname: docker.io
   binnames:
@@ -1263,22 +1217,24 @@
   categories:
     - misc
   vulnerable: true
-- repo: pardus_21
-  subrepo: updates/main
+- repo: parrot
+  subrepo: parrot/main
   srcname: docker.io
   binnames:
     - docker.io
+    - docker-cli
     - golang-github-docker-docker-dev
     - docker-doc
   visiblename: docker.io
-  version: 20.10.5
-  origversion: 20.10.5+dfsg1-1+deb11u4
+  version: 26.1.5
+  origversion: 26.1.5+dfsg1-9+deb13u1
   status: outdated
   maintainers:
     - team+pkg-go@tracker.debian.org
-    - elboulangero@gmail.com
+    - arnaudr@kali.org
     - onlyjob@debian.org
     - paultag@debian.org
+    - siretart@tauware.de
     - tianon@debian.org
     - tpot@hpe.com
   categories:
@@ -1306,51 +1262,6 @@
     - tpot@hpe.com
   categories:
     - misc
-  vulnerable: true
-- repo: parrot
-  subrepo: parrot/main
-  srcname: docker.io
-  binnames:
-    - docker.io
-    - docker-cli
-    - golang-github-docker-docker-dev
-    - docker-doc
-  visiblename: docker.io
-  version: 26.1.5
-  origversion: 26.1.5+dfsg1-9+deb13u1
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - arnaudr@kali.org
-    - onlyjob@debian.org
-    - paultag@debian.org
-    - siretart@tauware.de
-    - tianon@debian.org
-    - tpot@hpe.com
-  categories:
-    - misc
-  vulnerable: true
-- repo: pureos_amber
-  subrepo: amber/main
-  srcname: docker.io
-  binnames:
-    - docker-doc
-    - docker.io
-    - golang-docker-dev
-    - golang-github-docker-docker-dev
-    - vim-syntax-docker
-  visiblename: docker.io
-  version: 18.09.1
-  origversion: 18.09.1+dfsg1-7.1+deb10u3
-  status: outdated
-  maintainers:
-    - onlyjob@debian.org
-    - arnaud.rebillout@collabora.com
-    - paultag@debian.org
-    - tianon@debian.org
-    - tpot@hpe.com
-  categories:
-    - doc
   vulnerable: true
 - repo: pureos_byzantium
   subrepo: byzantium/main
@@ -1395,6 +1306,73 @@
     - tpot@hpe.com
   categories:
     - admin
+  vulnerable: true
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: docker.io
+  binnames:
+    - docker.io
+    - golang-github-docker-docker-dev
+    - docker-doc
+  visiblename: docker.io
+  version: 20.10.24
+  origversion: 20.10.24+dfsg1-1+deb12u1
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - arnaudr@kali.org
+    - onlyjob@debian.org
+    - paultag@debian.org
+    - tianon@debian.org
+    - tpot@hpe.com
+  categories:
+    - misc
+  vulnerable: true
+- repo: raspbian_stable
+  subrepo: main
+  srcname: docker.io
+  binnames:
+    - docker.io
+    - docker-cli
+    - golang-github-docker-docker-dev
+    - docker-doc
+  visiblename: docker.io
+  version: 26.1.5
+  origversion: 26.1.5+dfsg1-9+deb13u1
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - arnaudr@kali.org
+    - onlyjob@debian.org
+    - paultag@debian.org
+    - siretart@tauware.de
+    - tianon@debian.org
+    - tpot@hpe.com
+  categories:
+    - misc
+  vulnerable: true
+- repo: raspbian_testing
+  subrepo: main
+  srcname: docker.io
+  binnames:
+    - docker.io
+    - docker-cli
+    - golang-github-docker-docker-dev
+    - docker-doc
+  visiblename: docker.io
+  version: 28.5.2
+  origversion: 28.5.2+dfsg4-5
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - arnaudr@kali.org
+    - onlyjob@debian.org
+    - paultag@debian.org
+    - siretart@tauware.de
+    - tianon@debian.org
+    - tpot@hpe.com
+  categories:
+    - misc
   vulnerable: true
 - repo: side
   srcname: development/toolchain/moby
