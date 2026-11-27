@@ -1,328 +1,17 @@
-- repo: aerynos
-  srcname: moby
-  visiblename: moby
-  version: 29.10.0
-  origversion: null
-  status: newest
-  summary: The open-source application container engine
-  licenses:
-    - Apache-2.0
-- repo: chimera
-  subrepo: user
-  srcname: moby
-  binname: moby
-  visiblename: moby
-  version: 29.8.1
-  origversion: 29.8.1-r2
-  status: outdated
-  summary: Container management daemon
-  licenses:
-    - Apache-2.0
-- repo: chimera
-  subrepo: user
-  srcname: moby
-  binname: moby-dinit
-  visiblename: moby-dinit
-  version: 29.8.1
-  origversion: 29.8.1-r2
-  status: outdated
-  summary: Container management daemon (service files)
-  licenses:
-    - Apache-2.0
-- repo: chimera
-  subrepo: user
-  srcname: moby
-  binname: moby-man
-  visiblename: moby-man
-  version: 29.8.1
-  origversion: 29.8.1-r2
-  status: outdated
-  summary: Container management daemon (manual pages)
-  licenses:
-    - Apache-2.0
-- repo: crux_38
-  subrepo: contrib
-  srcname: docker
-  visiblename: docker
-  version: 29.10.0
-  origversion: null
-  status: newest
-  summary: An open platform for distributed applications for developers and sysadmins
-  maintainers:
-    - jaeger@crux.ninja
-- repo: exherbo
-  subrepo: virtualization
-  srcname: app-virtualization/moby
-  visiblename: app-virtualization/moby
-  version: 29.10.0
-  origversion: null
-  status: newest
-  summary: ship and run any application as a lightweight container
-  maintainers:
-    - fallback-mnt-exherbo@repology
-  categories:
-    - app-virtualization
-- repo: gentoo
-  srcname: app-containers/docker
-  visiblename: app-containers/docker
-  version: 29.9.0
-  origversion: null
-  status: legacy
-  summary: The core functions you need to create Docker images and run Docker containers
-  maintainers:
-    - williamh@gentoo.org
-    - arthurzam@gentoo.org
-  licenses:
-    - Apache-2.0
-  categories:
-    - app-containers
-- repo: gentoo
-  srcname: app-containers/docker
-  visiblename: app-containers/docker
-  version: 29.7.2
-  origversion: null
-  status: legacy
-  summary: The core functions you need to create Docker images and run Docker containers
-  maintainers:
-    - williamh@gentoo.org
-    - arthurzam@gentoo.org
-  licenses:
-    - Apache-2.0
-  categories:
-    - app-containers
-- repo: gentoo
-  srcname: app-containers/docker
-  visiblename: app-containers/docker
-  version: 29.8.0
-  origversion: null
-  status: legacy
-  summary: The core functions you need to create Docker images and run Docker containers
-  maintainers:
-    - williamh@gentoo.org
-    - arthurzam@gentoo.org
-  licenses:
-    - Apache-2.0
-  categories:
-    - app-containers
-- repo: gentoo
-  srcname: app-containers/docker
-  visiblename: app-containers/docker
-  version: 29.8.1
-  origversion: null
-  status: legacy
-  summary: The core functions you need to create Docker images and run Docker containers
-  maintainers:
-    - williamh@gentoo.org
-    - arthurzam@gentoo.org
-  licenses:
-    - Apache-2.0
-  categories:
-    - app-containers
-- repo: gentoo
-  srcname: app-containers/docker
-  visiblename: app-containers/docker
-  version: 29.9.3
-  origversion: null
-  status: legacy
-  summary: The core functions you need to create Docker images and run Docker containers
-  maintainers:
-    - williamh@gentoo.org
-    - arthurzam@gentoo.org
-  licenses:
-    - Apache-2.0
-  categories:
-    - app-containers
-- repo: gentoo
-  srcname: app-containers/docker
-  visiblename: app-containers/docker
-  version: 29.10.0
-  origversion: null
-  status: newest
-  summary: The core functions you need to create Docker images and run Docker containers
-  maintainers:
-    - williamh@gentoo.org
-    - arthurzam@gentoo.org
-  licenses:
-    - Apache-2.0
-  categories:
-    - app-containers
-- repo: kiss_community
-  subrepo: community
-  srcname: docker
-  visiblename: docker
-  version: 29.6.1
-  origversion: null
+- repo: openkylin_3_0
+  subrepo: huanghe-proposed/main
+  srcname: docker.io
+  binnames:
+    - golang-github-docker-docker-dev
+  visiblename: docker.io
+  version: 20.10.25
+  origversion: 20.10.25+dfsg1-ok4
   status: outdated
   maintainers:
-    - prathamin@proton.me
-- repo: liguros_develop
-  srcname: app-containers/docker
-  visiblename: app-containers/docker
-  version: 29.9.3
-  origversion: null
-  status: legacy
-  summary: The core functions you need to create Docker images and run Docker containers
-  maintainers:
-    - williamh@gentoo.org
-    - arthurzam@gentoo.org
-  licenses:
-    - Apache-2.0
+    - packaging@lists.openkylin.top
   categories:
-    - app-containers
-- repo: liguros_develop
-  srcname: app-containers/docker
-  visiblename: app-containers/docker
-  version: 29.8.1
-  origversion: null
-  status: legacy
-  summary: The core functions you need to create Docker images and run Docker containers
-  maintainers:
-    - williamh@gentoo.org
-    - arthurzam@gentoo.org
-  licenses:
-    - Apache-2.0
-  categories:
-    - app-containers
-- repo: liguros_develop
-  srcname: app-containers/docker
-  visiblename: app-containers/docker
-  version: 29.7.2
-  origversion: null
-  status: legacy
-  summary: The core functions you need to create Docker images and run Docker containers
-  maintainers:
-    - williamh@gentoo.org
-    - arthurzam@gentoo.org
-  licenses:
-    - Apache-2.0
-  categories:
-    - app-containers
-- repo: liguros_develop
-  srcname: app-containers/docker
-  visiblename: app-containers/docker
-  version: 29.8.0
-  origversion: null
-  status: legacy
-  summary: The core functions you need to create Docker images and run Docker containers
-  maintainers:
-    - williamh@gentoo.org
-    - arthurzam@gentoo.org
-  licenses:
-    - Apache-2.0
-  categories:
-    - app-containers
-- repo: liguros_develop
-  srcname: app-containers/docker
-  visiblename: app-containers/docker
-  version: 29.10.0
-  origversion: null
-  status: newest
-  summary: The core functions you need to create Docker images and run Docker containers
-  maintainers:
-    - williamh@gentoo.org
-    - arthurzam@gentoo.org
-  licenses:
-    - Apache-2.0
-  categories:
-    - app-containers
-- repo: liguros_develop
-  srcname: app-containers/docker
-  visiblename: app-containers/docker
-  version: 29.9.0
-  origversion: null
-  status: legacy
-  summary: The core functions you need to create Docker images and run Docker containers
-  maintainers:
-    - williamh@gentoo.org
-    - arthurzam@gentoo.org
-  licenses:
-    - Apache-2.0
-  categories:
-    - app-containers
-- repo: pisi_main
-  subrepo: main
-  srcname: hardware/virtualization/docker
-  visiblename: docker
-  version: 29.10.0
-  origversion: null
-  status: newest
-  summary: Pack, ship and run any application as a lightweight container
-  maintainers:
-    - ertugrulerata@gmail.com
-  licenses:
-    - Apache
-  categories:
-    - app:console
-- repo: slackbuilds
-  srcname: system/docker
-  visiblename: system/docker
-  version: 29.7.2
-  origversion: null
-  status: outdated
-  maintainers:
-    - andrew.clemons@gmail.com
-  categories:
-    - system
-- repo: solus
-  srcname: moby
-  binname: moby
-  visiblename: moby
-  version: 29.10.0
-  origversion: null
-  status: newest
-  summary: The open-source application container engine
-  maintainers:
-    - jared@jaredcervantes.com
-  licenses:
-    - Apache-2.0
-  categories:
-    - virt
-- repo: solus
-  srcname: moby
-  binname: moby-dbginfo
-  visiblename: moby-dbginfo
-  version: 29.10.0
-  origversion: null
-  status: newest
-  summary: Debug symbols for moby
-  maintainers:
-    - jared@jaredcervantes.com
-  licenses:
-    - Apache-2.0
-  categories:
-    - debug
-- repo: void_x86_64
-  subrepo: x86_64
-  srcname: moby
-  binname: moby
-  visiblename: moby
-  version: 29.8.0
-  origversion: 29.8.0_2
-  status: outdated
-  summary: Container engine for the Docker ecosystem
-  maintainers:
-    - orphan@voidlinux.org
-  licenses:
-    - Apache-2.0
-- repo: vylen
-  subrepo: community
-  srcname: docker
-  visiblename: docker
-  version: 29.10.0
-  origversion: 29.10.0-1
-  status: newest
-  summary: An open platform for distributed applications for developers and sysadmins
-  maintainers:
-    - wonkru-dev@proton.me
-- repo: wikidata
-  srcname: Q96276695
-  visiblename: Moby
-  version: 29.10.0
-  origversion: null
-  status: newest
-  summary: open framework created by Docker to assemble specialized container systems
-  licenses:
-    - Apache License 2.0
+    - admin
+  vulnerable: true
 - repo: apertis_v2023
   subrepo: v2023/development
   srcname: docker.io
@@ -380,6 +69,20 @@
     - tianon@debian.org
     - tpot@hpe.com
   vulnerable: true
+- repo: liguros_stable
+  srcname: app-containers/docker
+  visiblename: app-containers/docker
+  version: 28.0.1
+  origversion: null
+  status: legacy
+  summary: The core functions you need to create Docker images and run Docker containers
+  maintainers:
+    - williamh@gentoo.org
+  licenses:
+    - Apache-2.0
+  categories:
+    - app-containers
+  vulnerable: true
 - repo: apertis_v2026
   subrepo: v2026/development
   srcname: docker.io
@@ -432,6 +135,20 @@
   summary: An open platform for distributed applications for developers and sysadmins
   maintainers:
     - jaeger@crux.ninja
+  vulnerable: true
+- repo: openkylin_2_0
+  subrepo: nile-proposed/main
+  srcname: docker.io
+  binnames:
+    - golang-github-docker-docker-dev
+  visiblename: docker.io
+  version: 20.10.25
+  origversion: 20.10.25+dfsg1-ok4
+  status: outdated
+  maintainers:
+    - packaging@lists.openkylin.top
+  categories:
+    - admin
   vulnerable: true
 - repo: debian_11
   subrepo: bullseye-security/main
@@ -538,22 +255,24 @@
   categories:
     - misc
   vulnerable: true
-- repo: devuan_4_0
-  subrepo: chimaera/main
+- repo: debian_13
+  subrepo: trixie-security/main
   srcname: docker.io
   binnames:
     - docker.io
+    - docker-cli
     - golang-github-docker-docker-dev
     - docker-doc
   visiblename: docker.io
-  version: 20.10.5
-  origversion: 20.10.5+dfsg1-1+deb11u2
+  version: 26.1.5
+  origversion: 26.1.5+dfsg1-9+deb13u1
   status: outdated
   maintainers:
     - team+pkg-go@tracker.debian.org
-    - elboulangero@gmail.com
+    - arnaudr@kali.org
     - onlyjob@debian.org
     - paultag@debian.org
+    - siretart@tauware.de
     - tianon@debian.org
     - tpot@hpe.com
   categories:
@@ -582,31 +301,29 @@
   categories:
     - misc
   vulnerable: true
-- repo: debian_13
-  subrepo: trixie/main
+- repo: pardus_21
+  subrepo: main
   srcname: docker.io
   binnames:
     - docker.io
-    - docker-cli
     - golang-github-docker-docker-dev
     - docker-doc
   visiblename: docker.io
-  version: 26.1.5
-  origversion: 26.1.5+dfsg1-9+deb13u1
+  version: 20.10.5
+  origversion: 20.10.5+dfsg1-1+deb11u2
   status: outdated
   maintainers:
     - team+pkg-go@tracker.debian.org
-    - arnaudr@kali.org
+    - elboulangero@gmail.com
     - onlyjob@debian.org
     - paultag@debian.org
-    - siretart@tauware.de
     - tianon@debian.org
     - tpot@hpe.com
   categories:
     - misc
   vulnerable: true
 - repo: debian_13
-  subrepo: trixie-security/main
+  subrepo: trixie/main
   srcname: docker.io
   binnames:
     - docker.io
@@ -904,6 +621,27 @@
   categories:
     - admin
   vulnerable: true
+- repo: devuan_4_0
+  subrepo: chimaera/main
+  srcname: docker.io
+  binnames:
+    - docker.io
+    - golang-github-docker-docker-dev
+    - docker-doc
+  visiblename: docker.io
+  version: 20.10.5
+  origversion: 20.10.5+dfsg1-1+deb11u2
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - elboulangero@gmail.com
+    - onlyjob@debian.org
+    - paultag@debian.org
+    - tianon@debian.org
+    - tpot@hpe.com
+  categories:
+    - misc
+  vulnerable: true
 - repo: devuan_unstable
   subrepo: unstable/main
   srcname: docker.io
@@ -991,20 +729,6 @@
 - repo: liguros_stable
   srcname: app-containers/docker
   visiblename: app-containers/docker
-  version: 28.0.1
-  origversion: null
-  status: legacy
-  summary: The core functions you need to create Docker images and run Docker containers
-  maintainers:
-    - williamh@gentoo.org
-  licenses:
-    - Apache-2.0
-  categories:
-    - app-containers
-  vulnerable: true
-- repo: liguros_stable
-  srcname: app-containers/docker
-  visiblename: app-containers/docker
   version: 28.1.1
   origversion: null
   status: legacy
@@ -1029,6 +753,27 @@
     - Apache-2.0
   categories:
     - app-containers
+  vulnerable: true
+- repo: pardus_21
+  subrepo: main
+  srcname: docker.io
+  binnames:
+    - docker.io
+    - golang-github-docker-docker-dev
+    - docker-doc
+  visiblename: docker.io
+  version: 20.10.5
+  origversion: 20.10.5+dfsg1-1
+  status: outdated
+  maintainers:
+    - team+pkg-go@tracker.debian.org
+    - elboulangero@gmail.com
+    - onlyjob@debian.org
+    - paultag@debian.org
+    - tianon@debian.org
+    - tpot@hpe.com
+  categories:
+    - misc
   vulnerable: true
 - repo: liguros_develop
   srcname: app-containers/docker
@@ -1112,36 +857,8 @@
   categories:
     - admin
   vulnerable: true
-- repo: openkylin_2_0
-  subrepo: nile-proposed/main
-  srcname: docker.io
-  binnames:
-    - golang-github-docker-docker-dev
-  visiblename: docker.io
-  version: 20.10.25
-  origversion: 20.10.25+dfsg1-ok4
-  status: outdated
-  maintainers:
-    - packaging@lists.openkylin.top
-  categories:
-    - admin
-  vulnerable: true
 - repo: openkylin_3_0
   subrepo: huanghe/main
-  srcname: docker.io
-  binnames:
-    - golang-github-docker-docker-dev
-  visiblename: docker.io
-  version: 20.10.25
-  origversion: 20.10.25+dfsg1-ok4
-  status: outdated
-  maintainers:
-    - packaging@lists.openkylin.top
-  categories:
-    - admin
-  vulnerable: true
-- repo: openkylin_3_0
-  subrepo: huanghe-proposed/main
   srcname: docker.io
   binnames:
     - golang-github-docker-docker-dev
@@ -1175,50 +892,8 @@
   categories:
     - misc
   vulnerable: true
-- repo: pardus_21
-  subrepo: main
-  srcname: docker.io
-  binnames:
-    - docker.io
-    - golang-github-docker-docker-dev
-    - docker-doc
-  visiblename: docker.io
-  version: 20.10.5
-  origversion: 20.10.5+dfsg1-1+deb11u2
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - elboulangero@gmail.com
-    - onlyjob@debian.org
-    - paultag@debian.org
-    - tianon@debian.org
-    - tpot@hpe.com
-  categories:
-    - misc
-  vulnerable: true
-- repo: pardus_21
-  subrepo: main
-  srcname: docker.io
-  binnames:
-    - docker.io
-    - golang-github-docker-docker-dev
-    - docker-doc
-  visiblename: docker.io
-  version: 20.10.5
-  origversion: 20.10.5+dfsg1-1
-  status: outdated
-  maintainers:
-    - team+pkg-go@tracker.debian.org
-    - elboulangero@gmail.com
-    - onlyjob@debian.org
-    - paultag@debian.org
-    - tianon@debian.org
-    - tpot@hpe.com
-  categories:
-    - misc
-  vulnerable: true
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: docker.io
   binnames:
     - docker.io
@@ -1241,7 +916,7 @@
     - misc
   vulnerable: true
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: docker.io
   binnames:
     - docker.io
@@ -1539,3 +1214,328 @@
   categories:
     - universe/misc
   vulnerable: true
+- repo: aerynos
+  srcname: moby
+  visiblename: moby
+  version: 29.10.1
+  origversion: null
+  status: newest
+  summary: The open-source application container engine
+  licenses:
+    - Apache-2.0
+- repo: chimera
+  subrepo: user
+  srcname: moby
+  binname: moby
+  visiblename: moby
+  version: 29.10.0
+  origversion: 29.10.0-r0
+  status: outdated
+  summary: Container management daemon
+  licenses:
+    - Apache-2.0
+- repo: chimera
+  subrepo: user
+  srcname: moby
+  binname: moby-dinit
+  visiblename: moby-dinit
+  version: 29.10.0
+  origversion: 29.10.0-r0
+  status: outdated
+  summary: Container management daemon (service files)
+  licenses:
+    - Apache-2.0
+- repo: chimera
+  subrepo: user
+  srcname: moby
+  binname: moby-man
+  visiblename: moby-man
+  version: 29.10.0
+  origversion: 29.10.0-r0
+  status: outdated
+  summary: Container management daemon (manual pages)
+  licenses:
+    - Apache-2.0
+- repo: crux_38
+  subrepo: contrib
+  srcname: docker
+  visiblename: docker
+  version: 29.10.0
+  origversion: null
+  status: outdated
+  summary: An open platform for distributed applications for developers and sysadmins
+  maintainers:
+    - jaeger@crux.ninja
+- repo: exherbo
+  subrepo: virtualization
+  srcname: app-virtualization/moby
+  visiblename: app-virtualization/moby
+  version: 29.10.1
+  origversion: null
+  status: newest
+  summary: ship and run any application as a lightweight container
+  maintainers:
+    - fallback-mnt-exherbo@repology
+  categories:
+    - app-virtualization
+- repo: gentoo
+  srcname: app-containers/docker
+  visiblename: app-containers/docker
+  version: 29.9.0
+  origversion: null
+  status: legacy
+  summary: The core functions you need to create Docker images and run Docker containers
+  maintainers:
+    - williamh@gentoo.org
+    - arthurzam@gentoo.org
+  licenses:
+    - Apache-2.0
+  categories:
+    - app-containers
+- repo: gentoo
+  srcname: app-containers/docker
+  visiblename: app-containers/docker
+  version: 29.7.2
+  origversion: null
+  status: legacy
+  summary: The core functions you need to create Docker images and run Docker containers
+  maintainers:
+    - williamh@gentoo.org
+    - arthurzam@gentoo.org
+  licenses:
+    - Apache-2.0
+  categories:
+    - app-containers
+- repo: gentoo
+  srcname: app-containers/docker
+  visiblename: app-containers/docker
+  version: 29.8.0
+  origversion: null
+  status: legacy
+  summary: The core functions you need to create Docker images and run Docker containers
+  maintainers:
+    - williamh@gentoo.org
+    - arthurzam@gentoo.org
+  licenses:
+    - Apache-2.0
+  categories:
+    - app-containers
+- repo: gentoo
+  srcname: app-containers/docker
+  visiblename: app-containers/docker
+  version: 29.8.1
+  origversion: null
+  status: legacy
+  summary: The core functions you need to create Docker images and run Docker containers
+  maintainers:
+    - williamh@gentoo.org
+    - arthurzam@gentoo.org
+  licenses:
+    - Apache-2.0
+  categories:
+    - app-containers
+- repo: gentoo
+  srcname: app-containers/docker
+  visiblename: app-containers/docker
+  version: 29.9.3
+  origversion: null
+  status: legacy
+  summary: The core functions you need to create Docker images and run Docker containers
+  maintainers:
+    - williamh@gentoo.org
+    - arthurzam@gentoo.org
+  licenses:
+    - Apache-2.0
+  categories:
+    - app-containers
+- repo: gentoo
+  srcname: app-containers/docker
+  visiblename: app-containers/docker
+  version: 29.10.0
+  origversion: null
+  status: outdated
+  summary: The core functions you need to create Docker images and run Docker containers
+  maintainers:
+    - williamh@gentoo.org
+    - arthurzam@gentoo.org
+  licenses:
+    - Apache-2.0
+  categories:
+    - app-containers
+- repo: kiss_community
+  subrepo: community
+  srcname: docker
+  visiblename: docker
+  version: 29.6.1
+  origversion: null
+  status: outdated
+  maintainers:
+    - prathamin@proton.me
+- repo: liguros_develop
+  srcname: app-containers/docker
+  visiblename: app-containers/docker
+  version: 29.9.3
+  origversion: null
+  status: legacy
+  summary: The core functions you need to create Docker images and run Docker containers
+  maintainers:
+    - williamh@gentoo.org
+    - arthurzam@gentoo.org
+  licenses:
+    - Apache-2.0
+  categories:
+    - app-containers
+- repo: liguros_develop
+  srcname: app-containers/docker
+  visiblename: app-containers/docker
+  version: 29.8.1
+  origversion: null
+  status: legacy
+  summary: The core functions you need to create Docker images and run Docker containers
+  maintainers:
+    - williamh@gentoo.org
+    - arthurzam@gentoo.org
+  licenses:
+    - Apache-2.0
+  categories:
+    - app-containers
+- repo: liguros_develop
+  srcname: app-containers/docker
+  visiblename: app-containers/docker
+  version: 29.7.2
+  origversion: null
+  status: legacy
+  summary: The core functions you need to create Docker images and run Docker containers
+  maintainers:
+    - williamh@gentoo.org
+    - arthurzam@gentoo.org
+  licenses:
+    - Apache-2.0
+  categories:
+    - app-containers
+- repo: liguros_develop
+  srcname: app-containers/docker
+  visiblename: app-containers/docker
+  version: 29.8.0
+  origversion: null
+  status: legacy
+  summary: The core functions you need to create Docker images and run Docker containers
+  maintainers:
+    - williamh@gentoo.org
+    - arthurzam@gentoo.org
+  licenses:
+    - Apache-2.0
+  categories:
+    - app-containers
+- repo: liguros_develop
+  srcname: app-containers/docker
+  visiblename: app-containers/docker
+  version: 29.10.0
+  origversion: null
+  status: outdated
+  summary: The core functions you need to create Docker images and run Docker containers
+  maintainers:
+    - williamh@gentoo.org
+    - arthurzam@gentoo.org
+  licenses:
+    - Apache-2.0
+  categories:
+    - app-containers
+- repo: liguros_develop
+  srcname: app-containers/docker
+  visiblename: app-containers/docker
+  version: 29.9.0
+  origversion: null
+  status: legacy
+  summary: The core functions you need to create Docker images and run Docker containers
+  maintainers:
+    - williamh@gentoo.org
+    - arthurzam@gentoo.org
+  licenses:
+    - Apache-2.0
+  categories:
+    - app-containers
+- repo: pisi_main
+  subrepo: main
+  srcname: hardware/virtualization/docker
+  visiblename: docker
+  version: 29.10.1
+  origversion: null
+  status: newest
+  summary: Pack, ship and run any application as a lightweight container
+  maintainers:
+    - ertugrulerata@gmail.com
+  licenses:
+    - Apache
+  categories:
+    - app:console
+- repo: slackbuilds
+  srcname: system/docker
+  visiblename: system/docker
+  version: 29.7.2
+  origversion: null
+  status: outdated
+  maintainers:
+    - andrew.clemons@gmail.com
+  categories:
+    - system
+- repo: solus
+  srcname: moby
+  binname: moby
+  visiblename: moby
+  version: 29.10.1
+  origversion: null
+  status: newest
+  summary: The open-source application container engine
+  maintainers:
+    - jared@jaredcervantes.com
+  licenses:
+    - Apache-2.0
+  categories:
+    - virt
+- repo: solus
+  srcname: moby
+  binname: moby-dbginfo
+  visiblename: moby-dbginfo
+  version: 29.10.1
+  origversion: null
+  status: newest
+  summary: Debug symbols for moby
+  maintainers:
+    - jared@jaredcervantes.com
+  licenses:
+    - Apache-2.0
+  categories:
+    - debug
+- repo: void_x86_64
+  subrepo: x86_64
+  srcname: moby
+  binname: moby
+  visiblename: moby
+  version: 29.10.1
+  origversion: 29.10.1_1
+  status: newest
+  summary: Container engine for the Docker ecosystem
+  maintainers:
+    - orphan@voidlinux.org
+  licenses:
+    - Apache-2.0
+- repo: vylen
+  subrepo: community
+  srcname: docker
+  visiblename: docker
+  version: 29.10.1
+  origversion: 29.10.1-1
+  status: newest
+  summary: An open platform for distributed applications for developers and sysadmins
+  maintainers:
+    - wonkru-dev@proton.me
+- repo: wikidata
+  srcname: Q96276695
+  visiblename: Moby
+  version: 29.10.1
+  origversion: null
+  status: newest
+  summary: open framework created by Docker to assemble specialized container systems
+  licenses:
+    - Apache License 2.0
